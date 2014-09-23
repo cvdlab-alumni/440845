@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title> 
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        background-color: #ffffff;
+        margin: 0;
+        overflow: hidden;
+        font-family: arial;
+      }
+
+      #blocker {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+      }
+
+      #instructions {
+        width: 100%;
+        height: 100%;
+
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        box-orient: horizontal;
+
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        box-pack: center;
+
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        box-align: center;
+
+        color: #ffffff;
+        text-align: center;
+        cursor: pointer;
+      }
+      
+      #pointer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  width: 30px;
+  height: 30px;
+  display: none;
+  background-image: url("assets/functions/pointer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+    </style>
+  </head>
+  <body>
+  <div id ="pointer"> 
+  
+  </div>
+   
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+    <script src="assets/libs/three.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+    <script src="assets/libs/PointerLockControls.js"></script>
+     <script src="assets/libs/OBJLoader.js"></script>
+     <script src="assets/libs/TrackballControls.js"></script>
+      
+       <script src="assets/libs/tween.min.js"></script>
+            <script src="assets/libs/Mirror.js"></script>
+       
+  <script type="text/javascript" src="assets/functions/porta.js"></script>
+  <script type="text/javascript" src="assets/functions/shape.js"></script>
+  <script type="text/javascript" src="assets/functions/esterne.js"></script>
+  <script type="text/javascript" src="assets/functions/floor.js"></script>
+  <script type="text/javascript" src="assets/functions/pavimenti.js"></script>
+  <script type="text/javascript" src="assets/functions/int.js"></script>
+  <script type="text/javascript" src="assets/functions/forniture.js"></script>
+  <script type="text/javascript" src="assets/functions/lights.js"></script>
+  <script type="text/javascript" src="assets/functions/riempi.js"></script>
+   <script type="text/javascript" src="assets/functions/house.js"></script>
+ 
+ 
+  <script type="text/javascript" src="assets/functions/window.js"></script>
+  <script type="text/javascript" src="assets/functions/doors.js"></script>
+  <script type="text/javascript" src="assets/functions/start.js"></script>
+  
+  <script type="text/javascript" src="assets/libs/MTLLoader.js"></script> 
+  <script type="text/javascript" src="assets/libs/OBJMTLLoader.js"></script>
+  
+  <script type="text/javascript" src="assets/functions/skybox.js"></script>
+    <script type="text/javascript" src="assets/functions/tween.js"></script>
+    <script type="text/javascript" src="assets/functions/particle.js"></script>
+    <script type="text/javascript" src="assets/functions/gui.js"></script>
+    <script type="text/javascript" src="assets/functions/boxes.js"></script>
+    <script type="text/javascript" src="assets/functions/animation.js"></script>
+    <script type="text/javascript" src="assets/functions/specchio.js"></script>
+     
+    
+     <audio id="audioSwitch1" src="assets/audio/switch1.wav" ></audio> 
+     <audio id="audioSwitch2" src="assets/audio/switch2.wav" ></audio> 
+     <audio id="audioSliding" src="assets/audio/slidingdoor.wav" ></audio> 
+     <audio id="audioShower" src="assets/audio/shower.wav" ></audio> 
+     <audio id="audioDoorClose" src="assets/audio/doorclose.wav" ></audio> 
+       <audio id="audioDoorOpen" src="assets/audio/doorOpen.wav" ></audio> 
+        <audio id="audioDoorBell" src="assets/audio/doorbell.wav" ></audio> 
+         <audio id="toilet" src="assets/audio/toilet.wav" ></audio> 
+  
+  
+
+    <script>
+    start();
+
+    
+    </script>
+  </body>
+</html>
