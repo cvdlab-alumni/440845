@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome</title>
+<style>
+#b {
+position : absolute;
+width: 100%;
+height: 100%;
+top:500px;
+left: 400px;
+}
+</style>
+</head>
+
+<body>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+  <script src="assets/libs/TrackballControls.js"></script>
+  <script src="assets/libs/OBJLoader.js"></script>
+  <script src="assets/libs/tween.min.js"></script>
+   <script type="text/javascript" src="assets/oggetti/houseTrack.js"></script>
+   <script type="text/javascript" src="assets/oggetti/porta.js"></script>
+    <script type="text/javascript" src="assets/oggetti/shape.js"></script>
+     <script type="text/javascript" src="assets/oggetti/esterne.js"></script>
+     <script type="text/javascript" src="assets/oggetti/floor.js"></script>
+      <script type="text/javascript" src="assets/oggetti/pavimenti.js"></script>
+      <script type="text/javascript" src="assets/oggetti/int.js"></script>
+        <script type="text/javascript" src="assets/oggetti/forniture.js"></script>
+          <script type="text/javascript" src="assets/oggetti/lights.js"></script>
+           <script type="text/javascript" src="assets/oggetti/window.js"></script>
+      <script type="text/javascript" src="assets/libs/MTLLoader.js"></script> 
+  <script type="text/javascript" src="assets/libs/OBJMTLLoader.js"></script>
+      <audio id="audio" src="assets/sounds/switch.mp3" ></audio> 
+  
+  
+  <script> track();
+  </script>
+  <div id="b"> 
+  <FORM>
+  <INPUT type="button"  value="View with PointerLock Controls" name="button2" onClick="self.location = 'http://localhost:8080/House/examples/housePointerLock.html'; return true">
+  </FORM>
+   </div>
+
+</body>
+</html>
