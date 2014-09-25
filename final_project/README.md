@@ -44,6 +44,7 @@ It imports all required libs and js code. The code is separated in different fil
 <a href="https://github.com/cvdlab-cg/440845/blob/master/final_project/WebContent/assets/functions/window.js">window.js</a>  Creates windows </br>
 
 
+
 FEATURES
 
 Textures
