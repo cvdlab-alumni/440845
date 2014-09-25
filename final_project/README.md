@@ -47,13 +47,22 @@ It imports all required libs and js code. The code is separated in different fil
 FEATURES
 
 Textures
+
 .obj and .obj/.mtl model files import
+
 Tween animations
+
 TrackBallControl
+
 PointerLockControl 
+
 Object-Picking
+
 Particle System
+
 Skybox
+
 Sound effects
+
 Mirror 
 
